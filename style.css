@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container{
+    position: relative;
+    transform: translate(250px,20px);
+    width: 900px;
+    height: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+ .display {
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    background-color: red;
+    width: 300px;
+    height: 570px;
+}
+
+
+.box{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background-color: greenyellow;
+
+}
+
+#box2{
+    top: 300px;
+    background-color:blue;
+}
+
+#box3{
+    left: 610px;
+    background-color:pink;
+}
+
+#box4{
+    top:300px;
+    left: 610px;
+    background-color:yellow;
+}
